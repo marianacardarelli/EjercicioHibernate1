@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ejerciciohibernate1.HelloController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="277.0" prefWidth="332.0" spacing="20.0">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <TableView prefHeight="200.0" prefWidth="200.0">
+           <columns>
+               <TableColumn fx:id="id" prefWidth="39.333343505859375" text="Id" />
+             <TableColumn fx:id="nombre" prefWidth="76.0" text="Nombre" />
+             <TableColumn fx:id="categoria" prefWidth="88.0" text="Categoria" />
+               <TableColumn fx:id="disponible" prefWidth="87.3333740234375" text="Disponible" />
+           </columns>
+         </TableView>
+      
+          <Label fx:id="welcomeText" />
+      </VBox>
+   </center>
+</BorderPane>
